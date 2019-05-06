@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:background="@color/wallet_highlighted_text_holo_light"
+    android:gravity="center_horizontal|center_vertical"
+    android:weightSum="3"
+    android:padding="10dp">
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Please enter Distance in KM"
+        android:gravity="center"/>
+    <EditText 
+        android:id="@+id/etSellerIntroductionCode"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="in Kilo Meters"
+        android:inputType="text"
+        android:singleLine="true"/>
+    <Button
+        android:id="@+id/btnVerify"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="Verify" 
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

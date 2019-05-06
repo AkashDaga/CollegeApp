@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_send_message"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Send Message" />
+            <item
+                android:id="@+id/nav_edit_profile"
+                android:icon="@mipmap/ic_launcher"
+                android:title="My Profile" />
+            <item
+                android:id="@+id/nav_edit_message"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Edit Message" />
+            <item
+                android:id="@+id/nav_edit_contacts"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Edit Contacts" />
+        </group>
+
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_community"
+                    android:icon="@mipmap/ic_launcher"
+                    android:title="Community" />
+                <item
+                    android:id="@+id/nav_contact_us"
+                    android:icon="@mipmap/ic_launcher"
+                    android:title="Contact us" />
+            </menu>
+        </item>
+        <item android:title="Information">
+            <item
+                android:id="@+id/nav_Notification"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Notification" />
+
+            <item
+                android:id="@+id/nav_document"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Document" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@mipmap/ic_launcher"
+                android:title="About us" />
+        </item>
+    </menu>

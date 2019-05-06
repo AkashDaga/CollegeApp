@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+    
+    <CheckBox 
+        android:id="@+id/chkbxContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:focusable="false"
+        android:layout_centerVertical="true"/>
+    <ImageView 
+        android:id="@+id/ivContact"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerInside"
+        android:layout_toRightOf="@+id/chkbxContact"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/profile"/>
+    
+    <RelativeLayout
+        android:id="@+id/rlHolder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/ivContact"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tvContactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/dView"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="gjkal"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <TextView
+            android:id="@+id/tvContactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvContactName"
+            android:layout_alignRight="@+id/tvContactName"
+            android:layout_below="@+id/tvContactName"
+            android:layout_marginBottom="10dp"
+            android:text="gjkalff"
+            android:textColor="@android:color/holo_orange_dark" />
+    </RelativeLayout>
+    
+</RelativeLayout>

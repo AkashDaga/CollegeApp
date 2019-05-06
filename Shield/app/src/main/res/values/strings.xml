@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Shield</string>
+    <string name="title_activity_select_contacts">SelectContactsActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="choose_format_title">Choose Audio format</string>
+    <string name="start_recording">Record</string>
+    <string name="stop_recording">Stop</string>
+    <string name="audio_format">Format</string>
+
+    <string name="appid">1532886567008264</string>
+
+
+    <string-array name="tabs_name">
+        <item>All Contacts</item>
+        <item>Favourite Contacts</item>
+    </string-array>
+
+    <string-array name="SignUp_tabs_name">
+        <item>Register</item>
+        <item>Facebook</item>
+        <item>Google+</item>
+    </string-array>
+
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+
+    <string-array name="app_drawer_fragment_name">
+        <item>send Message</item>
+        <item>gps</item>
+        <item>edit profile</item>
+        <item>edit message</item>
+        <item>edit favourite contacts</item>
+        <item>notification</item>
+        <item>community</item>
+        <item>about us</item>
+    </string-array>
+    <array name="fragment_icon">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_app_drawer">AppDrawerActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
